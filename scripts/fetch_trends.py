@@ -37,6 +37,40 @@ PIPED = ["https://pipedapi.kavin.rocks", "https://api.piped.private.coffee", "ht
 INVIDIOUS = ["https://inv.nadeko.net", "https://invidious.nerdvpn.de", "https://yewtu.be"]
 
 
+def piped_instances() -> list[str]:
+    """从 Piped 官方实例目录拉可用 API 列表，硬编码的那几个只作兜底。"""
+    try:
+        resp = requests.get("https://piped-instances.kavin.rocks/", timeout=20,
+                            headers={"User-Agent": UA, "Accept": "application/json"})
+        if resp.status_code == 200:
+            found = [row.get("api_url", "").rstrip("/") for row in resp.json()
+                     if row.get("api_url") and not row.get("locations", "").lower().startswith("tor")]
+            urls = [u for u in found if u.startswith("https://")]
+            if urls:
+                return urls[:8]
+    except Exception:  # noqa: BLE001
+        pass
+    return PIPED
+
+
+def invidious_instances() -> list[str]:
+    """从 api.invidious.io 拉实例列表，优先 api=true 的。"""
+    try:
+        resp = requests.get("https://api.invidious.io/instances.json?sort_by=health", timeout=20,
+                            headers={"User-Agent": UA})
+        if resp.status_code == 200:
+            urls = []
+            for _name, info in resp.json():
+                uri = (info or {}).get("uri", "")
+                if (info or {}).get("api") and uri.startswith("https://"):
+                    urls.append(uri.rstrip("/"))
+            if urls:
+                return urls[:8]
+    except Exception:  # noqa: BLE001
+        pass
+    return INVIDIOUS
+
+
 def now_iso() -> str:
     return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
@@ -148,9 +182,9 @@ def yt_from_innertube() -> list[dict]:
 
 def yt_from_piped() -> list[dict]:
     last = ""
-    for base in PIPED:
+    for base in piped_instances():
         try:
-            resp = requests.get(f"{base}/trending?region=US", timeout=20,
+            resp = requests.get(f"{base}/trending?region=US", timeout=15,
                                 headers={"User-Agent": UA, "Accept": "application/json"})
             if resp.status_code != 200:
                 last = f"{base} HTTP {resp.status_code}"
@@ -175,9 +209,9 @@ def yt_from_piped() -> list[dict]:
 
 def yt_from_invidious() -> list[dict]:
     last = ""
-    for base in INVIDIOUS:
+    for base in invidious_instances():
         try:
-            resp = requests.get(f"{base}/api/v1/trending?region=US", timeout=20,
+            resp = requests.get(f"{base}/api/v1/trending?region=US", timeout=15,
                                 headers={"User-Agent": UA, "Accept": "application/json"})
             if resp.status_code != 200:
                 last = f"{base} HTTP {resp.status_code}"
