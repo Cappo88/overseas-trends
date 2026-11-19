@@ -1,17 +1,17 @@
 {
-  "checked_at": "2026-11-19T11:34:39Z",
+  "checked_at": "2026-11-19T11:35:58Z",
   "sources": {
     "youtube": {
       "ok": false,
-      "error": "RuntimeError: ytInitialData 里没有视频节点（len=883165） | Innertube HTTPError: 400 Client Error: Bad Request for url: https://www.youtube.com/youtubei/v1/brows"
+      "error": "RuntimeError: innertube: RuntimeError: HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Request contains an invalid argument.\",\n    \"errors\": [\n       | piped: RuntimeError: https://pipedapi.adminforge.de HTTP 403 | invidious: RuntimeError: https://yewtu.be JSONDecodeError: Expecting value: line 1 column 1 (char 0) | html: RuntimeError: ytInitialData 里没有视频节点 (len=884787)"
+    },
+    "trends": {
+      "ok": true,
+      "count": 10
     },
     "tiktok": {
       "ok": false,
-      "error": "RuntimeError: list 为空，返回片段: {\"code\":40101,\"msg\":\"no permission\",\"request_id\":\"20261119193433725BCD39EE1EEC0BD554\"}"
-    },
-    "trends": {
-      "ok": false,
-      "error": "HTTPError: 404 Client Error: Not Found for url: https://trends.google.com/trends/trendingsearches/daily/rss?geo=US"
+      "error": "RuntimeError: list 为空: {\"code\":40101,\"msg\":\"no permission\",\"request_id\":\"202611191935570B357C1C9B1802F926C6\"}"
     }
   }
 }

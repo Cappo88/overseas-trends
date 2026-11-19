@@ -1,0 +1,66 @@
+{
+  "source": "trends",
+  "fetched_at": "2026-11-19T11:35:53Z",
+  "items": [
+    {
+      "title": "patrick petty",
+      "url": "https://trends.google.com/trending/rss?geo=US",
+      "rank": 1,
+      "traffic": "100+"
+    },
+    {
+      "title": "local weather",
+      "url": "https://trends.google.com/trending/rss?geo=US",
+      "rank": 2,
+      "traffic": "200+"
+    },
+    {
+      "title": "lego black friday",
+      "url": "https://trends.google.com/trending/rss?geo=US",
+      "rank": 3,
+      "traffic": "100+"
+    },
+    {
+      "title": "the further mis-adventures of cliff booth",
+      "url": "https://trends.google.com/trending/rss?geo=US",
+      "rank": 4,
+      "traffic": "100+"
+    },
+    {
+      "title": "bowling",
+      "url": "https://trends.google.com/trending/rss?geo=US",
+      "rank": 5,
+      "traffic": "100+"
+    },
+    {
+      "title": "brooks nader",
+      "url": "https://trends.google.com/trending/rss?geo=US",
+      "rank": 6,
+      "traffic": "100+"
+    },
+    {
+      "title": "weather near me",
+      "url": "https://trends.google.com/trending/rss?geo=US",
+      "rank": 7,
+      "traffic": "100+"
+    },
+    {
+      "title": "tampa weather",
+      "url": "https://trends.google.com/trending/rss?geo=US",
+      "rank": 8,
+      "traffic": "200+"
+    },
+    {
+      "title": "sri lanka vs pakistan",
+      "url": "https://trends.google.com/trending/rss?geo=US",
+      "rank": 9,
+      "traffic": "500+"
+    },
+    {
+      "title": "sc lottery",
+      "url": "https://trends.google.com/trending/rss?geo=US",
+      "rank": 10,
+      "traffic": "200+"
+    }
+  ]
+}
