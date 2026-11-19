@@ -1,13 +1,17 @@
 {
-  "checked_at": "2026-11-19T11:33:28Z",
+  "checked_at": "2026-11-19T11:34:39Z",
   "sources": {
     "youtube": {
       "ok": false,
-      "error": "RuntimeError: ytInitialData 里没有视频节点（len=885989） | Innertube HTTPError: 400 Client Error: Bad Request for url: https://www.youtube.com/youtubei/v1/brows"
+      "error": "RuntimeError: ytInitialData 里没有视频节点（len=883165） | Innertube HTTPError: 400 Client Error: Bad Request for url: https://www.youtube.com/youtubei/v1/brows"
     },
     "tiktok": {
       "ok": false,
-      "error": "RuntimeError: list 为空，返回片段: {\"code\":40101,\"msg\":\"no permission\",\"request_id\":\"202611191933281D0D3FEFC5EEFA099499\"}"
+      "error": "RuntimeError: list 为空，返回片段: {\"code\":40101,\"msg\":\"no permission\",\"request_id\":\"20261119193433725BCD39EE1EEC0BD554\"}"
+    },
+    "trends": {
+      "ok": false,
+      "error": "HTTPError: 404 Client Error: Not Found for url: https://trends.google.com/trends/trendingsearches/daily/rss?geo=US"
     }
   }
 }
