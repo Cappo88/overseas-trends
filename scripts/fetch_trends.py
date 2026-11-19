@@ -43,6 +43,12 @@ def save(name: str, items: list[dict]) -> None:
         json.dump(payload, fh, ensure_ascii=False, indent=2)
 
 
+def save_text(name: str, text: str) -> None:
+    os.makedirs(OUT_DIR, exist_ok=True)
+    with open(os.path.join(OUT_DIR, name), "w", encoding="utf-8") as fh:
+        fh.write(text)
+
+
 def walk_titles(data) -> list[dict]:
     """从任意 YT 数据结构里收集视频：兼容 videoRenderer / lockupViewModel 等新旧结构。"""
     items: list[dict] = []
@@ -126,6 +132,16 @@ def fetch_youtube() -> list[dict]:
         resp = session.get("https://www.youtube.com/feed/trending?gl=US&hl=en", timeout=30)
         resp.raise_for_status()
         html = resp.text
+        # 诊断：把页面里跟视频节点有关的结构落盘，方便在仓库里直接看
+        idx = html.find("lockupViewModel")
+        save_text("_yt_debug.txt", "\n".join([
+            "len=%d lockup=%d videoId=%d consent=%s" % (
+                len(html), html.count("lockupViewModel"), html.count('"videoId"'),
+                "consent" in html.lower()),
+            "--- head 400 ---", html[:400],
+            "--- around first lockup ---",
+            html[max(0, idx - 200): idx + 1600] if idx >= 0 else "(no lockupViewModel found)",
+        ]))
         match = re.search(r"var ytInitialData\s*=\s*(\{.*?\});</script>", html, re.S)
         if not match:
             match = re.search(r'ytInitialData"\]\s*=\s*(\{.*?\});', html, re.S)
@@ -202,10 +218,37 @@ def fetch_tiktok() -> list[dict]:
     return items
 
 
+def fetch_googletrends() -> list[dict]:
+    """Google Trends 每日热搜（RSS，无需 Key，境外 IP 稳定）。"""
+    import xml.etree.ElementTree as ET
+
+    url = "https://trends.google.com/trends/trendingsearches/daily/rss?geo=US"
+    resp = requests.get(url, headers={"User-Agent": UA, "Accept-Language": "en-US,en;q=0.9"}, timeout=30)
+    resp.raise_for_status()
+
+    root = ET.fromstring(resp.content)
+    items: list[dict] = []
+    for i, node in enumerate(root.iter("item"), start=1):
+        title = (node.findtext("title") or "").strip()
+        if not title:
+            continue
+        link = (node.findtext("link") or "").strip()
+        trail = (node.findtext("{http://search.yahoo.com/mrss/}approx_traffic") or "").strip()
+        items.append({
+            "title": title,
+            "url": link or ("https://trends.google.com/trends/explore?geo=US&q=" + title.replace(" ", "+")),
+            "rank": i,
+            "traffic": trail,
+        })
+    if not items:
+        raise RuntimeError("RSS 里没有条目")
+    return items
+
+
 def main() -> int:
     status: dict[str, dict] = {}
 
-    for name, fn in (("youtube", fetch_youtube), ("tiktok", fetch_tiktok)):
+    for name, fn in (("youtube", fetch_youtube), ("tiktok", fetch_tiktok), ("trends", fetch_googletrends)):
         last_error = ""
         for attempt in (1, 2):
             try:
