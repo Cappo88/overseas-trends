@@ -1,66 +1,66 @@
 {
   "source": "trends",
-  "fetched_at": "2026-11-19T11:37:13Z",
+  "fetched_at": "2026-11-19T20:27:43Z",
   "items": [
     {
-      "title": "patrick petty",
+      "title": "drew mestemaker",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 1,
-      "traffic": "100+"
+      "traffic": "1000+"
     },
     {
-      "title": "local weather",
+      "title": "scott speedman",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 2,
-      "traffic": "200+"
+      "traffic": "500+"
     },
     {
-      "title": "lego black friday",
+      "title": "alexander zverev",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 3,
-      "traffic": "100+"
+      "traffic": "2000+"
     },
     {
-      "title": "the further mis-adventures of cliff booth",
+      "title": "arthur fils",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 4,
-      "traffic": "100+"
+      "traffic": "500+"
     },
     {
-      "title": "bowling",
+      "title": "zverev",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 5,
-      "traffic": "100+"
+      "traffic": "10000+"
     },
     {
-      "title": "brooks nader",
+      "title": "federal emergency management agency",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 6,
-      "traffic": "100+"
+      "traffic": "500+"
     },
     {
-      "title": "weather near me",
+      "title": "nasa voyager 1",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 7,
-      "traffic": "100+"
+      "traffic": "500+"
     },
     {
-      "title": "tampa weather",
+      "title": "corey ruiz",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 8,
-      "traffic": "200+"
+      "traffic": "500+"
     },
     {
-      "title": "sri lanka vs pakistan",
+      "title": "hyundai elantra",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 9,
       "traffic": "500+"
     },
     {
-      "title": "sc lottery",
+      "title": "andrew marsh",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 10,
-      "traffic": "200+"
+      "traffic": "1000+"
     }
   ]
 }
