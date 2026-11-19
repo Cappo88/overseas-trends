@@ -1,0 +1,47 @@
+name: fetch-overseas-trends
+
+# 每小时抓一次 YouTube 热门 + TikTok 话题，结果提交回仓库。
+# 本地那台机器在境内访问不了这两个站，所以让 GitHub 的境外 runner 代抓。
+
+on:
+  schedule:
+    - cron: "7 * * * *"   # 每小时第 7 分钟（UTC）
+  workflow_dispatch: {}    # 也可以手动触发一次
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install requests
+
+      - name: Fetch trends
+        run: python scripts/fetch_trends.py
+
+      - name: Commit data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if [ ! -d data ]; then
+            echo "两个源都失败，没有 data 目录，跳过提交"
+            exit 0
+          fi
+          git add data
+          if git diff --cached --quiet; then
+            echo "没有变化，跳过提交"
+          else
+            git commit -m "chore: update overseas trends $(date -u +'%Y-%m-%dT%H:%MZ')"
+            git push
+          fi
