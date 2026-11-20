@@ -1,66 +1,66 @@
 {
   "source": "trends",
-  "fetched_at": "2026-11-19T20:27:43Z",
+  "fetched_at": "2026-11-20T02:14:31Z",
   "items": [
     {
-      "title": "drew mestemaker",
+      "title": "patrick stewart",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 1,
-      "traffic": "1000+"
-    },
-    {
-      "title": "scott speedman",
-      "url": "https://trends.google.com/trending/rss?geo=US",
-      "rank": 2,
-      "traffic": "500+"
-    },
-    {
-      "title": "alexander zverev",
-      "url": "https://trends.google.com/trending/rss?geo=US",
-      "rank": 3,
       "traffic": "2000+"
     },
     {
-      "title": "arthur fils",
+      "title": "ncis",
+      "url": "https://trends.google.com/trending/rss?geo=US",
+      "rank": 2,
+      "traffic": "1000+"
+    },
+    {
+      "title": "law and order svu",
+      "url": "https://trends.google.com/trending/rss?geo=US",
+      "rank": 3,
+      "traffic": "1000+"
+    },
+    {
+      "title": "jaden mcdaniels",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 4,
       "traffic": "500+"
     },
     {
-      "title": "zverev",
+      "title": "kamari lassiter",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 5,
-      "traffic": "10000+"
+      "traffic": "2000+"
     },
     {
-      "title": "federal emergency management agency",
+      "title": "iowa women's basketball",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 6,
-      "traffic": "500+"
+      "traffic": "2000+"
     },
     {
-      "title": "nasa voyager 1",
+      "title": "canucks vs kraken",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 7,
       "traffic": "500+"
     },
     {
-      "title": "corey ruiz",
+      "title": "cameron boozer",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 8,
-      "traffic": "500+"
+      "traffic": "1000+"
     },
     {
-      "title": "hyundai elantra",
+      "title": "nate ament",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 9,
       "traffic": "500+"
     },
     {
-      "title": "andrew marsh",
+      "title": "texas basketball",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 10,
-      "traffic": "1000+"
+      "traffic": "500+"
     }
   ]
 }
