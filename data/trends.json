@@ -1,66 +1,66 @@
 {
   "source": "trends",
-  "fetched_at": "2026-11-21T17:22:34Z",
+  "fetched_at": "2026-11-21T23:04:15Z",
   "items": [
     {
-      "title": "tornado warning",
+      "title": "josh hoover",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 1,
-      "traffic": "10000+"
-    },
-    {
-      "title": "bucks vs 76ers",
-      "url": "https://trends.google.com/trending/rss?geo=US",
-      "rank": 2,
-      "traffic": "1000+"
-    },
-    {
-      "title": "houston vs west virginia",
-      "url": "https://trends.google.com/trending/rss?geo=US",
-      "rank": 3,
-      "traffic": "1000+"
-    },
-    {
-      "title": "tn tech vs ms state",
-      "url": "https://trends.google.com/trending/rss?geo=US",
-      "rank": 4,
-      "traffic": "1000+"
-    },
-    {
-      "title": "detroit mercy vs mi state",
-      "url": "https://trends.google.com/trending/rss?geo=US",
-      "rank": 5,
       "traffic": "500+"
     },
     {
-      "title": "louisville city fc vs sacramento republic fc",
+      "title": "greg mcelroy",
       "url": "https://trends.google.com/trending/rss?geo=US",
-      "rank": 6,
+      "rank": 2,
       "traffic": "200+"
     },
     {
-      "title": "oilers vs hurricanes",
+      "title": "kirk ferentz",
+      "url": "https://trends.google.com/trending/rss?geo=US",
+      "rank": 3,
+      "traffic": "500+"
+    },
+    {
+      "title": "new york city police department",
+      "url": "https://trends.google.com/trending/rss?geo=US",
+      "rank": 4,
+      "traffic": "200+"
+    },
+    {
+      "title": "classement real madrid – celta vigo",
+      "url": "https://trends.google.com/trending/rss?geo=US",
+      "rank": 5,
+      "traffic": "200+"
+    },
+    {
+      "title": "weather forecast",
+      "url": "https://trends.google.com/trending/rss?geo=US",
+      "rank": 6,
+      "traffic": "1000+"
+    },
+    {
+      "title": "alabama vs unc",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 7,
       "traffic": "200+"
     },
     {
-      "title": "game gta6",
+      "title": "chicago parade today",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 8,
-      "traffic": "5000+"
+      "traffic": "500+"
     },
     {
-      "title": "cmo",
+      "title": "uc davis football",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 9,
       "traffic": "200+"
     },
     {
-      "title": "weather chicago",
+      "title": "maryland vs usc",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 10,
-      "traffic": "200+"
+      "traffic": "10000+"
     }
   ]
 }
