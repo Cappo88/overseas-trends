@@ -1,66 +1,66 @@
 {
   "source": "trends",
-  "fetched_at": "2026-11-20T20:00:00Z",
+  "fetched_at": "2026-11-21T01:24:09Z",
   "items": [
     {
-      "title": "posiciones de al-ahli saudi contra al-nassr",
+      "title": "nick cannon",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 1,
       "traffic": "1000+"
     },
     {
-      "title": "daniil medvedev",
+      "title": "kawhi leonard",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 2,
-      "traffic": "500+"
+      "traffic": "200+"
     },
     {
-      "title": "is drake maye out for the season",
+      "title": "new mexico vs wyoming",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 3,
-      "traffic": "1000+"
-    },
-    {
-      "title": "nasdaq",
-      "url": "https://trends.google.com/trending/rss?geo=US",
-      "rank": 4,
-      "traffic": "20000+"
-    },
-    {
-      "title": "smh stock",
-      "url": "https://trends.google.com/trending/rss?geo=US",
-      "rank": 5,
-      "traffic": "500+"
-    },
-    {
-      "title": "troyes vs le havre",
-      "url": "https://trends.google.com/trending/rss?geo=US",
-      "rank": 6,
-      "traffic": "500+"
-    },
-    {
-      "title": "purdue professor dead",
-      "url": "https://trends.google.com/trending/rss?geo=US",
-      "rank": 7,
-      "traffic": "500+"
-    },
-    {
-      "title": "athletic - rcd espanyol",
-      "url": "https://trends.google.com/trending/rss?geo=US",
-      "rank": 8,
       "traffic": "2000+"
     },
     {
-      "title": "elise stefanik",
+      "title": "jackie tohn",
+      "url": "https://trends.google.com/trending/rss?geo=US",
+      "rank": 4,
+      "traffic": "2000+"
+    },
+    {
+      "title": "seton hall vs uconn",
+      "url": "https://trends.google.com/trending/rss?geo=US",
+      "rank": 5,
+      "traffic": "2000+"
+    },
+    {
+      "title": "madden cast",
+      "url": "https://trends.google.com/trending/rss?geo=US",
+      "rank": 6,
+      "traffic": "2000+"
+    },
+    {
+      "title": "badger basketball",
+      "url": "https://trends.google.com/trending/rss?geo=US",
+      "rank": 7,
+      "traffic": "10000+"
+    },
+    {
+      "title": "deportación",
+      "url": "https://trends.google.com/trending/rss?geo=US",
+      "rank": 8,
+      "traffic": "500+"
+    },
+    {
+      "title": "dyson daniels",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 9,
       "traffic": "500+"
     },
     {
-      "title": "eva xie",
+      "title": "dabo swinney",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 10,
-      "traffic": "2000+"
+      "traffic": "500+"
     }
   ]
 }
