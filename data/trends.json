@@ -1,66 +1,66 @@
 {
   "source": "trends",
-  "fetched_at": "2026-11-21T23:04:15Z",
+  "fetched_at": "2026-11-22T03:00:39Z",
   "items": [
     {
-      "title": "josh hoover",
+      "title": "hawaii vs nevada",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 1,
       "traffic": "500+"
     },
     {
-      "title": "greg mcelroy",
+      "title": "donovan clingan",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 2,
-      "traffic": "200+"
-    },
-    {
-      "title": "kirk ferentz",
-      "url": "https://trends.google.com/trending/rss?geo=US",
-      "rank": 3,
       "traffic": "500+"
     },
     {
-      "title": "new york city police department",
+      "title": "wemby",
       "url": "https://trends.google.com/trending/rss?geo=US",
-      "rank": 4,
-      "traffic": "200+"
-    },
-    {
-      "title": "classement real madrid – celta vigo",
-      "url": "https://trends.google.com/trending/rss?geo=US",
-      "rank": 5,
-      "traffic": "200+"
-    },
-    {
-      "title": "weather forecast",
-      "url": "https://trends.google.com/trending/rss?geo=US",
-      "rank": 6,
+      "rank": 3,
       "traffic": "1000+"
     },
     {
-      "title": "alabama vs unc",
+      "title": "u of u football",
       "url": "https://trends.google.com/trending/rss?geo=US",
-      "rank": 7,
-      "traffic": "200+"
+      "rank": 4,
+      "traffic": "500+"
     },
     {
-      "title": "chicago parade today",
+      "title": "toronto maple leafs",
+      "url": "https://trends.google.com/trending/rss?geo=US",
+      "rank": 5,
+      "traffic": "500+"
+    },
+    {
+      "title": "utah state vs oregon state",
+      "url": "https://trends.google.com/trending/rss?geo=US",
+      "rank": 6,
+      "traffic": "2000+"
+    },
+    {
+      "title": "product recall",
+      "url": "https://trends.google.com/trending/rss?geo=US",
+      "rank": 7,
+      "traffic": "1000+"
+    },
+    {
+      "title": "josh hart",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 8,
       "traffic": "500+"
     },
     {
-      "title": "uc davis football",
+      "title": "emergency operations center",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 9,
       "traffic": "200+"
     },
     {
-      "title": "maryland vs usc",
+      "title": "carlos salcedo",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 10,
-      "traffic": "10000+"
+      "traffic": "200+"
     }
   ]
 }
