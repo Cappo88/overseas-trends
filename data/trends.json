@@ -1,66 +1,66 @@
 {
   "source": "trends",
-  "fetched_at": "2026-11-22T03:00:39Z",
+  "fetched_at": "2026-11-22T11:05:11Z",
   "items": [
     {
-      "title": "hawaii vs nevada",
+      "title": "juventus - venezia",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 1,
-      "traffic": "500+"
+      "traffic": "200+"
     },
     {
-      "title": "donovan clingan",
+      "title": "linda evans",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 2,
+      "traffic": "100+"
+    },
+    {
+      "title": "radar",
+      "url": "https://trends.google.com/trending/rss?geo=US",
+      "rank": 3,
       "traffic": "500+"
     },
     {
-      "title": "wemby",
-      "url": "https://trends.google.com/trending/rss?geo=US",
-      "rank": 3,
-      "traffic": "1000+"
-    },
-    {
-      "title": "u of u football",
+      "title": "juventus vs venezia",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 4,
       "traffic": "500+"
     },
     {
-      "title": "toronto maple leafs",
+      "title": "philly marathon 2026",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 5,
+      "traffic": "10000+"
+    },
+    {
+      "title": "anne heche",
+      "url": "https://trends.google.com/trending/rss?geo=US",
+      "rank": 6,
+      "traffic": "100+"
+    },
+    {
+      "title": "espncricinfo",
+      "url": "https://trends.google.com/trending/rss?geo=US",
+      "rank": 7,
       "traffic": "500+"
     },
     {
-      "title": "utah state vs oregon state",
+      "title": "can you buy houses in gta 6",
       "url": "https://trends.google.com/trending/rss?geo=US",
-      "rank": 6,
-      "traffic": "2000+"
+      "rank": 8,
+      "traffic": "100+"
     },
     {
-      "title": "product recall",
+      "title": "atomic clock",
       "url": "https://trends.google.com/trending/rss?geo=US",
-      "rank": 7,
+      "rank": 9,
       "traffic": "1000+"
     },
     {
-      "title": "josh hart",
-      "url": "https://trends.google.com/trending/rss?geo=US",
-      "rank": 8,
-      "traffic": "500+"
-    },
-    {
-      "title": "emergency operations center",
-      "url": "https://trends.google.com/trending/rss?geo=US",
-      "rank": 9,
-      "traffic": "200+"
-    },
-    {
-      "title": "carlos salcedo",
+      "title": "nancy guthrie",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 10,
-      "traffic": "200+"
+      "traffic": "100+"
     }
   ]
 }
