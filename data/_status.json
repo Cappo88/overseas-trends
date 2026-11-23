@@ -1,9 +1,9 @@
 {
-  "checked_at": "2026-11-22T18:28:16Z",
+  "checked_at": "2026-11-23T00:12:50Z",
   "sources": {
     "youtube": {
       "ok": false,
-      "error": "RuntimeError: innertube: RuntimeError: HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Request contains an invalid argument.\",\n    \"errors\": [\n       | piped: RuntimeError: https://pipedapi.adminforge.de HTTP 403 | invidious: RuntimeError: https://yewtu.be JSONDecodeError: Expecting value: line 1 column 1 (char 0) | html: RuntimeError: ytInitialData 里没有视频节点 (len=1033481)"
+      "error": "RuntimeError: innertube: RuntimeError: HTTP 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Request contains an invalid argument.\",\n    \"errors\": [\n       | piped: RuntimeError: https://pipedapi.adminforge.de HTTP 403 | invidious: RuntimeError: https://yewtu.be JSONDecodeError: Expecting value: line 1 column 1 (char 0) | html: RuntimeError: ytInitialData 里没有视频节点 (len=933865)"
     },
     "trends": {
       "ok": true,
@@ -11,7 +11,7 @@
     },
     "tiktok": {
       "ok": false,
-      "error": "RuntimeError: list 为空: {\"code\":40101,\"msg\":\"no permission\",\"request_id\":\"202611230228163E296D0BF39C78E37493\"}"
+      "error": "RuntimeError: list 为空: {\"code\":40101,\"msg\":\"no permission\",\"request_id\":\"202611230812502B1A0F99B17191EF52B5\"}"
     }
   }
 }

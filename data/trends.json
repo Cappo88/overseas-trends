@@ -1,66 +1,66 @@
 {
   "source": "trends",
-  "fetched_at": "2026-11-22T18:28:12Z",
+  "fetched_at": "2026-11-23T00:12:46Z",
   "items": [
     {
-      "title": "is taylor swift at the chiefs game today",
+      "title": "croix bethune",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 1,
+      "traffic": "2000+"
+    },
+    {
+      "title": "pedro pascal",
+      "url": "https://trends.google.com/trending/rss?geo=US",
+      "rank": 2,
       "traffic": "500+"
     },
     {
-      "title": "tyler shough",
-      "url": "https://trends.google.com/trending/rss?geo=US",
-      "rank": 2,
-      "traffic": "1000+"
-    },
-    {
-      "title": "dallas cowboys game today",
+      "title": "marvel avengers doomsday",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 3,
       "traffic": "1000+"
     },
     {
-      "title": "rashod bateman",
+      "title": "bill hader",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 4,
       "traffic": "500+"
     },
     {
-      "title": "detective",
+      "title": "theo johnson",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 5,
       "traffic": "200+"
     },
     {
-      "title": "ollie gordon",
+      "title": "disney discontinues hulu standalone app",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 6,
-      "traffic": "200+"
+      "traffic": "2000+"
     },
     {
-      "title": "dolphins qb",
+      "title": "efraín álvarez",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 7,
-      "traffic": "200+"
+      "traffic": "1000+"
     },
     {
-      "title": "max hurleman",
+      "title": "josh holloway",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 8,
-      "traffic": "500+"
+      "traffic": "1000+"
     },
     {
-      "title": "hector herrera",
+      "title": "geno smith",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 9,
-      "traffic": "500+"
+      "traffic": "1000+"
     },
     {
-      "title": "is kenneth walker playing this week",
+      "title": "wage",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 10,
-      "traffic": "500+"
+      "traffic": "1000+"
     }
   ]
 }
