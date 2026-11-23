@@ -1,66 +1,66 @@
 {
   "source": "trends",
-  "fetched_at": "2026-11-23T00:12:46Z",
+  "fetched_at": "2026-11-23T08:55:16Z",
   "items": [
     {
-      "title": "croix bethune",
+      "title": "claudia sheinbaum",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 1,
-      "traffic": "2000+"
-    },
-    {
-      "title": "pedro pascal",
-      "url": "https://trends.google.com/trending/rss?geo=US",
-      "rank": 2,
-      "traffic": "500+"
-    },
-    {
-      "title": "marvel avengers doomsday",
-      "url": "https://trends.google.com/trending/rss?geo=US",
-      "rank": 3,
-      "traffic": "1000+"
-    },
-    {
-      "title": "bill hader",
-      "url": "https://trends.google.com/trending/rss?geo=US",
-      "rank": 4,
-      "traffic": "500+"
-    },
-    {
-      "title": "theo johnson",
-      "url": "https://trends.google.com/trending/rss?geo=US",
-      "rank": 5,
       "traffic": "200+"
     },
     {
-      "title": "disney discontinues hulu standalone app",
+      "title": "car accident lawyer",
+      "url": "https://trends.google.com/trending/rss?geo=US",
+      "rank": 2,
+      "traffic": "200+"
+    },
+    {
+      "title": "jonathan blow",
+      "url": "https://trends.google.com/trending/rss?geo=US",
+      "rank": 3,
+      "traffic": "100+"
+    },
+    {
+      "title": "vicki gta 6 voice actor",
+      "url": "https://trends.google.com/trending/rss?geo=US",
+      "rank": 4,
+      "traffic": "200+"
+    },
+    {
+      "title": "boss",
+      "url": "https://trends.google.com/trending/rss?geo=US",
+      "rank": 5,
+      "traffic": "100+"
+    },
+    {
+      "title": "sam houser",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 6,
-      "traffic": "2000+"
+      "traffic": "200+"
     },
     {
-      "title": "efraín álvarez",
+      "title": "king charles",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 7,
-      "traffic": "1000+"
+      "traffic": "100+"
     },
     {
-      "title": "josh holloway",
+      "title": "stranger things",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 8,
-      "traffic": "1000+"
+      "traffic": "500+"
     },
     {
-      "title": "geno smith",
+      "title": "swimming",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 9,
-      "traffic": "1000+"
+      "traffic": "200+"
     },
     {
-      "title": "wage",
+      "title": "elon musk",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 10,
-      "traffic": "1000+"
+      "traffic": "500+"
     }
   ]
 }
