@@ -1,66 +1,66 @@
 {
   "source": "trends",
-  "fetched_at": "2026-11-24T05:56:23Z",
+  "fetched_at": "2026-11-24T17:30:48Z",
   "items": [
     {
-      "title": "collin sexton",
+      "title": "micron",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 1,
-      "traffic": "500+"
-    },
-    {
-      "title": "nosedive",
-      "url": "https://trends.google.com/trending/rss?geo=US",
-      "rank": 2,
       "traffic": "200+"
     },
     {
-      "title": "jake laravia",
+      "title": "college football playoff",
+      "url": "https://trends.google.com/trending/rss?geo=US",
+      "rank": 2,
+      "traffic": "2000+"
+    },
+    {
+      "title": "galatasaray vs aston villa",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 3,
-      "traffic": "500+"
+      "traffic": "10000+"
     },
     {
-      "title": "walker kessler",
+      "title": "galatasaray - aston villa",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 4,
-      "traffic": "500+"
+      "traffic": "5000+"
     },
     {
-      "title": "criminal profile gta 6",
+      "title": "bioware",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 5,
       "traffic": "500+"
     },
     {
-      "title": "gta 6 chapter 2 mission list",
+      "title": "guy fieri",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 6,
       "traffic": "200+"
     },
     {
-      "title": "paul walker",
+      "title": "the view",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 7,
-      "traffic": "200+"
+      "traffic": "500+"
     },
     {
-      "title": "ind-a vs uae",
+      "title": "microsoft code red",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 8,
       "traffic": "500+"
     },
     {
-      "title": "anthony mackie",
+      "title": "christie miller",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 9,
-      "traffic": "200+"
+      "traffic": "2000+"
     },
     {
-      "title": "dubious provenance gta 6",
+      "title": "angela bassett",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 10,
-      "traffic": "200+"
+      "traffic": "2000+"
     }
   ]
 }
