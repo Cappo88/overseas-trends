@@ -1,66 +1,66 @@
 {
   "source": "trends",
-  "fetched_at": "2026-11-24T17:30:48Z",
+  "fetched_at": "2026-11-25T02:16:50Z",
   "items": [
     {
-      "title": "micron",
+      "title": "trae young",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 1,
-      "traffic": "200+"
-    },
-    {
-      "title": "college football playoff",
-      "url": "https://trends.google.com/trending/rss?geo=US",
-      "rank": 2,
       "traffic": "2000+"
     },
     {
-      "title": "galatasaray vs aston villa",
+      "title": "anthony davis",
+      "url": "https://trends.google.com/trending/rss?geo=US",
+      "rank": 2,
+      "traffic": "1000+"
+    },
+    {
+      "title": "kalshi",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 3,
-      "traffic": "10000+"
+      "traffic": "1000+"
     },
     {
-      "title": "galatasaray - aston villa",
+      "title": "hayden panettiere",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 4,
-      "traffic": "5000+"
-    },
-    {
-      "title": "bioware",
-      "url": "https://trends.google.com/trending/rss?geo=US",
-      "rank": 5,
       "traffic": "500+"
     },
     {
-      "title": "guy fieri",
+      "title": "mavericks vs nuggets",
+      "url": "https://trends.google.com/trending/rss?geo=US",
+      "rank": 5,
+      "traffic": "1000+"
+    },
+    {
+      "title": "mizzou basketball",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 6,
+      "traffic": "500+"
+    },
+    {
+      "title": "mario kart world",
+      "url": "https://trends.google.com/trending/rss?geo=US",
+      "rank": 7,
       "traffic": "200+"
     },
     {
-      "title": "the view",
-      "url": "https://trends.google.com/trending/rss?geo=US",
-      "rank": 7,
-      "traffic": "500+"
-    },
-    {
-      "title": "microsoft code red",
+      "title": "dig tv show",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 8,
       "traffic": "500+"
     },
     {
-      "title": "christie miller",
+      "title": "heather dinich",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 9,
-      "traffic": "2000+"
+      "traffic": "200+"
     },
     {
-      "title": "angela bassett",
+      "title": "john candy",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 10,
-      "traffic": "2000+"
+      "traffic": "200+"
     }
   ]
 }
