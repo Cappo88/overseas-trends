@@ -1,66 +1,66 @@
 {
   "source": "trends",
-  "fetched_at": "2026-11-25T12:37:27Z",
+  "fetched_at": "2026-11-25T22:25:05Z",
   "items": [
     {
-      "title": "bangladesh vs south africa",
+      "title": "memphis basketball",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 1,
-      "traffic": "500+"
+      "traffic": "1000+"
     },
     {
-      "title": "football games today",
+      "title": "byu vs providence prediction",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 2,
       "traffic": "200+"
     },
     {
-      "title": "pce report",
+      "title": "north dakota basketball",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 3,
-      "traffic": "100+"
+      "traffic": "200+"
     },
     {
-      "title": "oil refinery",
+      "title": "elly de la cruz",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 4,
       "traffic": "200+"
     },
     {
-      "title": "demarvion overshown",
+      "title": "champions league table",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 5,
-      "traffic": "100+"
-    },
-    {
-      "title": "s and p 500 futures",
-      "url": "https://trends.google.com/trending/rss?geo=US",
-      "rank": 6,
-      "traffic": "100+"
-    },
-    {
-      "title": "ice detainee habeas corpus petitions",
-      "url": "https://trends.google.com/trending/rss?geo=US",
-      "rank": 7,
       "traffic": "200+"
     },
     {
-      "title": "dow futures now",
+      "title": "stock markets",
       "url": "https://trends.google.com/trending/rss?geo=US",
-      "rank": 8,
+      "rank": 6,
       "traffic": "10000+"
     },
     {
-      "title": "breeze airways new routes 2026",
+      "title": "diet",
       "url": "https://trends.google.com/trending/rss?geo=US",
-      "rank": 9,
-      "traffic": "100+"
+      "rank": 7,
+      "traffic": "500+"
     },
     {
-      "title": "storm warning",
+      "title": "mike mccarthy ice cream sandwiches",
+      "url": "https://trends.google.com/trending/rss?geo=US",
+      "rank": 8,
+      "traffic": "1000+"
+    },
+    {
+      "title": "teslarati",
+      "url": "https://trends.google.com/trending/rss?geo=US",
+      "rank": 9,
+      "traffic": "200+"
+    },
+    {
+      "title": "donyell malen",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 10,
-      "traffic": "100+"
+      "traffic": "200+"
     }
   ]
 }
