@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-26T14:58:51Z",
+  "checked_at": "2026-11-26T23:44:03Z",
   "sources": {
     "youtube": {
       "ok": true,
@@ -11,7 +11,7 @@
     },
     "tiktok": {
       "ok": false,
-      "error": "RuntimeError: list 为空: {\"code\":40101,\"msg\":\"no permission\",\"request_id\":\"2026112622585166D4698B9A977E3900ED\"}"
+      "error": "RuntimeError: list 为空: {\"code\":40101,\"msg\":\"no permission\",\"request_id\":\"202611270744036702926F44D66662A4D4\"}"
     }
   }
 }
