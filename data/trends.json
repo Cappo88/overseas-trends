@@ -1,66 +1,66 @@
 {
   "source": "trends",
-  "fetched_at": "2026-11-27T08:06:41Z",
+  "fetched_at": "2026-11-27T18:08:16Z",
   "items": [
     {
-      "title": "aus vs eng",
+      "title": "kamario taylor",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 1,
-      "traffic": "1000+"
-    },
-    {
-      "title": "australia vs england",
-      "url": "https://trends.google.com/trending/rss?geo=US",
-      "rank": 2,
-      "traffic": "200+"
-    },
-    {
-      "title": "gta6 pc port",
-      "url": "https://trends.google.com/trending/rss?geo=US",
-      "rank": 3,
-      "traffic": "1000+"
-    },
-    {
-      "title": "daycare",
-      "url": "https://trends.google.com/trending/rss?geo=US",
-      "rank": 4,
-      "traffic": "200+"
-    },
-    {
-      "title": "iran attacks kuwait",
-      "url": "https://trends.google.com/trending/rss?geo=US",
-      "rank": 5,
-      "traffic": "10000+"
-    },
-    {
-      "title": "seth meyers",
-      "url": "https://trends.google.com/trending/rss?geo=US",
-      "rank": 6,
       "traffic": "500+"
     },
     {
-      "title": "ocelot jugular gta 6",
+      "title": "hank brown",
+      "url": "https://trends.google.com/trending/rss?geo=US",
+      "rank": 2,
+      "traffic": "500+"
+    },
+    {
+      "title": "ncaaf",
+      "url": "https://trends.google.com/trending/rss?geo=US",
+      "rank": 3,
+      "traffic": "500+"
+    },
+    {
+      "title": "maple leafs vs bruins",
+      "url": "https://trends.google.com/trending/rss?geo=US",
+      "rank": 4,
+      "traffic": "5000+"
+    },
+    {
+      "title": "mammoth vs predators",
+      "url": "https://trends.google.com/trending/rss?geo=US",
+      "rank": 5,
+      "traffic": "2000+"
+    },
+    {
+      "title": "flames vs devils",
+      "url": "https://trends.google.com/trending/rss?geo=US",
+      "rank": 6,
+      "traffic": "1000+"
+    },
+    {
+      "title": "brian kelly",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 7,
       "traffic": "500+"
     },
     {
-      "title": "justin bieber",
+      "title": "college football",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 8,
-      "traffic": "200+"
+      "traffic": "10000+"
     },
     {
-      "title": "michael douglas",
+      "title": "deb fischer",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 9,
-      "traffic": "500+"
+      "traffic": "1000+"
     },
     {
-      "title": "jessica biel",
+      "title": "ariana grande",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 10,
-      "traffic": "2000+"
+      "traffic": "10000+"
     }
   ]
 }
