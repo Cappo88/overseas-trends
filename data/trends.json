@@ -1,66 +1,66 @@
 {
   "source": "trends",
-  "fetched_at": "2026-11-27T18:08:16Z",
+  "fetched_at": "2026-11-28T01:52:44Z",
   "items": [
     {
-      "title": "kamario taylor",
+      "title": "warriors vs trail blazers",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 1,
-      "traffic": "500+"
+      "traffic": "1000+"
     },
     {
-      "title": "hank brown",
+      "title": "ghsa football playoffs",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 2,
       "traffic": "500+"
     },
     {
-      "title": "ncaaf",
+      "title": "cruise ship outbreak",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 3,
-      "traffic": "500+"
+      "traffic": "1000+"
     },
     {
-      "title": "maple leafs vs bruins",
+      "title": "sec championship game",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 4,
       "traffic": "5000+"
     },
     {
-      "title": "mammoth vs predators",
+      "title": "millonarios - américa",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 5,
-      "traffic": "2000+"
+      "traffic": "1000+"
     },
     {
-      "title": "flames vs devils",
+      "title": "peyton manning",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 6,
       "traffic": "1000+"
     },
     {
-      "title": "brian kelly",
+      "title": "anne applebaum",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 7,
       "traffic": "500+"
     },
     {
-      "title": "college football",
+      "title": "atley calvert",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 8,
-      "traffic": "10000+"
+      "traffic": "200+"
     },
     {
-      "title": "deb fischer",
+      "title": "ciara",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 9,
-      "traffic": "1000+"
+      "traffic": "500+"
     },
     {
-      "title": "ariana grande",
+      "title": "mavericks vs suns",
       "url": "https://trends.google.com/trending/rss?geo=US",
       "rank": 10,
-      "traffic": "10000+"
+      "traffic": "5000+"
     }
   ]
 }
